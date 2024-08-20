@@ -1,2 +1,50 @@
 
 /* Your CSS Code here. */
+body{
+	background-color: lightseagreen;
+	padding: 0px;
+	margin: 0px;
+	
+}
+header{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	border: 2px solid white;
+	width: 300px;
+	text-align: center;
+	background-color: black;
+	color: floralwhite;
+	margin: 5px;
+	padding: 5px;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+	text-decoration: none;
+	padding: 5px;
+	background-color: lightsalmon;
+	margin: 5px;
+	
+}
+/* #nav-quote{
+	display: flex;
+	justify-content: flex-end;
+	text-decoration: none;
+} */
+/* p{
+	background-color: purple;
+	color: solid black;
+	padding: 10px;
+} */
+summary{
+	background-color: navy;
+	color: white;
+	padding: 5px;
+}
+
+aside, footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
